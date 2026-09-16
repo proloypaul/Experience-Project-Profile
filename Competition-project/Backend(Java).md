@@ -9,7 +9,7 @@
 
 # Competition Backend
 
-**A high-performance, cloud-native backend for the Competition platform — engineered to handle millions of concurrent quiz submissions without compromising response time or data integrity.**
+**A high-performance, cloud-native backend for the Competition platform — designed to handle high-volume concurrent quiz submissions.**
 
 </div>
 
@@ -100,18 +100,18 @@ Each quiz is composed of **sections**, where every section:
 | Layer | Technology | Purpose |
 |---|---|---|
 | **Runtime** | Java 21 (Virtual Threads) | Lightweight concurrency without thread pool bottlenecks |
-| **Framework** | Spring Boot 3.5.0 | Core web, JPA, security, scheduling, actuator |
+| **Framework** | Spring Boot | Core web, JPA, security, scheduling, actuator |
 | **Database** | PostgreSQL | Primary relational data store with dedicated schema |
 | **Cache** | Redis | Quiz bundle caching, student auth caching, OTP storage |
 | **Message Queue** | AWS SQS | Asynchronous exam submission pipeline |
 | **File Storage** | AWS S3 + S3 Transfer Manager | Question images, student answer JSON files |
 | **Email** | AWS SES | OTP delivery and system notifications |
 | **SMS** | ReVe SMS (configurable) | OTP delivery via SMS gateway |
-| **Security** | Spring Security + JWT (JJWT 0.12.6) | Stateless auth with HTTP-only cookie tokens |
+| **Security** | Spring Security + JWT (JJWT) | Stateless auth with HTTP-only cookie tokens |
 | **DB Migrations** | Flyway | Versioned, auditable schema evolution |
 | **API Docs** | SpringDoc OpenAPI (Swagger UI) | Auto-generated, interactive API documentation |
 | **ORM** | Hibernate + Spring Data JPA | Entity management with batch insert support |
-| **Build** | Maven 3.9 | Dependency management and packaging |
+| **Build** | Maven | Dependency management and packaging |
 | **CI/CD** | Jenkins + SSH deploy | Automated build, provision, deploy, and health-check pipeline |
 | **Monitoring** | Spring Actuator | Health checks and metrics endpoints |
 
@@ -334,7 +334,7 @@ competition/
 ├── pom.xml                              # Maven dependencies and build config
 └── src/
     └── main/
-        ├── java/com/sef/
+        ├── java/com/projectName/
         │   ├── Application.java      # Spring Boot entry point
         │   ├── config/
         │   │   └── AsyncConfig.java     # Fallback executor thread pool config
@@ -360,7 +360,7 @@ competition/
         │   │   ├── JwtAuthenticationFilter.java           # Per-request JWT validation filter
         │   │   └── SecurityConfig.java                    # Spring Security filter chain config
         │   └── domain/
-        │       └── student/
+        │       └── moduleName/
         │           └── controller/
         │           └── service/
         │           └── entity/
@@ -383,7 +383,7 @@ competition/
 
 <div align="center">
 
-**Built with ❤️ for the Shaheen Education Foundation**
+**Built with ❤️ for the Competition platform*
 
 *Engineered for scale · Designed for reliability · Built for students*
 
