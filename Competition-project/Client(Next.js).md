@@ -356,6 +356,28 @@ competition-frontend/
 
 ---
 
+## 👨‍💻 My Role & Contribution
+
+This project was developed as part of a **professional employment** engagement at a technology company. My contributions included end-to-end development of all frontend features and architectural implementations described in this documentation, with the sole exception of the CI/CD pipeline and server infrastructure, which were handled by a dedicated DevOps team. Key responsibilities included:
+
+- 🔨 Full frontend feature development using Next.js 16 and React 19.
+- 🧠 Designing the offline-resilient exam state persistence using IndexedDB.
+- 🔐 Implementing the secure authentication flow with silent token refresh.
+- 📦 Building the multi-format practice quiz, digital admit card, and complex multi-step registration forms.
+- 📊 Integrating direct-to-S3 file uploads and optimizing application performance.
+
+---
+
+## 📄 Confidentiality Notice
+
+> 🔒 **This project is proprietary and confidential.**
+>
+> The source code, client identity, database schemas, API keys, environment configurations, and all internal business logic are protected under a company Non-Disclosure Agreement (NDA). No source code or sensitive data is disclosed in this document.
+>
+> This README is intended **solely as a professional portfolio reference** to demonstrate implementation skills and technical experience to potential employers.
+
+---
+
 <div align="center">
 
 *Engineered for reliability · Designed for students · Built for scale*

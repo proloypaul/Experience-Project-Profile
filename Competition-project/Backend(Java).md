@@ -381,6 +381,28 @@ competition/
 
 ---
 
+## 👨‍💻 My Role & Contribution
+
+This project was developed as part of a **professional employment** engagement at a technology company. My contributions included end-to-end development of all features and core architectural components described in this documentation, with the sole exception of the CI/CD pipeline and DevOps infrastructure, which were handled by a dedicated DevOps team. Key responsibilities included:
+
+- 🔨 Designing and implementing the Domain-Driven Layered Architecture.
+- 🧠 Engineering the high-scale asynchronous exam submission pipeline using AWS SQS.
+- 🔐 Developing the security, authentication, and caching strategies.
+- 📦 Building the multi-format quiz engine and automated grading logic.
+- 📊 Integrating cloud services (AWS S3, SES, SQS) and structuring the PostgreSQL database.
+
+---
+
+## 📄 Confidentiality Notice
+
+> 🔒 **This project is proprietary and confidential.**
+>
+> The source code, client identity, database schemas, API keys, environment configurations, and all internal business logic are protected under a company Non-Disclosure Agreement (NDA). No source code or sensitive data is disclosed in this document.
+>
+> This README is intended **solely as a professional portfolio reference** to demonstrate implementation skills and technical experience to potential employers.
+
+---
+
 <div align="center">
 
 **Built with ❤️ for the Competition platform*
