@@ -7,7 +7,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-Welcome to **IT Training Tube**, a professional, highly scalable, and full-featured Learning Management System (LMS) designed for modern online education and video-based training. This project was conceptualized, designed, and implemented independently by me around 2 years ago during my learning phase to showcase my full-stack web development capabilities.
+**IT Training Tube** is an enterprise-grade, highly scalable Learning Management System (LMS) engineered to deliver seamless online education and interactive video-based training. Independently conceptualized and developed approximately two years ago during my intensive learning phase, this platform stands as a robust showcase of my proficiency in full-stack web development, modern UI/UX principles, and secure API architecture.
 
 ---
 
