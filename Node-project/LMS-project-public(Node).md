@@ -11,7 +11,7 @@
 
 ---
 
-## 🔗 Public Source Code & Live Links
+## 🔗 Public Source Code
 
 This project is completely open-source. You can explore the codebase and live demonstrations below:
 

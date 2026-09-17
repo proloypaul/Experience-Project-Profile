@@ -1,4 +1,4 @@
-# 🚀 Software Engineering Portfolio
+# 🚀 Experience Project Profile
 
 Welcome to my comprehensive technical portfolio! This repository showcases my professional and learning projects across full-stack and backend development. 
 
@@ -12,9 +12,9 @@ Click on any project below to explore its detailed technical breakdown, architec
 
 ### ☕ Java & Spring Boot Projects
 
-- [Enterprise Project Overview](./Java-project/Eterprise-project(spring-boot).md)
-- [Competition Backend API](./Java-project/Competition-Backend(spring-boot).md)
-- [Competition Web Client (Next.js)](./Java-project/Competition-Client(Next.js).md)
+- [Enterprise Project](./Java-project/Eterprise-project(spring-boot).md)
+- [Competition Backend](./Java-project/Competition-Backend(spring-boot).md)
+- [Competition Frontend (Next.js)](./Java-project/Competition-Client(Next.js).md)
 - [Delicious Backend Server (Public Project)](./Java-project/delicious-public-project(spring-boot).md)
 
 ### 🟩 Node.js & Full-Stack Projects
